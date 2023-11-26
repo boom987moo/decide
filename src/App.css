@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  /* If you have a specific max-width for your app, set it here */
+  max-width: 600px; /* Adjust this value as needed */
+  /* This will center the content of the root div */
+  margin: auto;
+}
+
+.App {
+  width: 100%;
+  background: #f7f7f7;
+  /* Remove any specific height if it's not necessary */
+  /* Other styles... */
+}
+
+.add-event-button {
+  margin: auto;
+  /* Adjust margin if needed to vertically align with the input */
+}
+.event-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.event-input {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.event-counter {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  margin-left: 100px;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.event-item {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decide-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 350px; /* Match the width of the event list */
+  margin:10px auto; /* Center the button horizontally */
+}
+
+.decide-button:hover {
+  background-color: #0056b3;
+}
+
+.event-result {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #28a745;
+}
+
+
